@@ -1,5 +1,9 @@
 package uk.ac.ed.inf.op.model;
 
 public class Person {
-	public String firstName;
+	private String firstName;
+	private String lastName;
+	private String email;
+	
+	public Person(String firstName, String lastName, String email)
 }
